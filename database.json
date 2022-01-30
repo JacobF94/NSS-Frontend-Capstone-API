@@ -1,0 +1,152 @@
+{
+    "users": [
+        {        
+            "id": 1,
+            "name": "Jacob",
+            "email": "jacob@mail.com"
+        },
+        {        
+            "id": 2,
+            "name": "Sharif",
+            "email": "Sharif@mail.com"
+        },
+        {        
+            "id": 3,
+            "name": "Matthew",
+            "email": "Matthew@mail.com"
+        },
+        {        
+            "id": 4,
+            "name": "Cory",
+            "email": "Cory@mail.com"
+        }
+    ],
+    "weekdays": [
+        {
+            "id": 1,
+            "day": "Sunday"
+        },
+        {
+            "id": 2,
+            "day": "Monday"
+        },
+        {
+            "id": 3,
+            "day": "Tuesday"
+        },
+        {
+            "id": 4,
+            "day": "Wednesday"
+        },
+        {
+            "id": 5,
+            "day": "Thursday"
+        },
+        {
+            "id": 6,
+            "day": "Friday"
+        },
+        {
+            "id": 7,
+            "day": "Saturday"
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "name": "pushup",
+            "description": "",
+            "howTo": "",
+            "imageURL": "",
+            "freewieght": false
+        },
+        {
+            "id": 2,
+            "name": "sit up",
+            "description": "",
+            "howTo": "",
+            "imageURL": "",
+            "freewieght": false 
+        },
+        {
+            "id": 3,
+            "name": "squat",
+            "description": "",
+            "howTo": "",
+            "imageURL": "",
+            "freewieght": false
+        },
+        {
+            "id": 4,
+            "name": "lunge",
+            "description": "",
+            "howTo": "",
+            "imageURL": "",
+            "freewieght": false
+        },
+        {
+            "id": 5,
+            "name": "plank",
+            "description": "",
+            "howTo": "",
+            "imageURL": "",
+            "freewieght": false
+        },
+        {
+            "id": 6,
+            "name": "bicep curl",
+            "description": "",
+            "howTo": "",
+            "imageURL": "",
+            "freewieght": true
+        },
+        {
+            "id": 7,
+            "name": "shoulder raise",
+            "description": "",
+            "howTo": "",
+            "imageURL": "",
+            "freewieght": true
+        },
+        {
+            "id": 8,
+            "name": "chest press",
+            "description": "",
+            "howTo": "",
+            "imageURL": "",
+            "freewieght": true
+        },
+        {
+            "id": 9,
+            "name": "bent over row",
+            "description": "",
+            "howTo": "",
+            "imageURL": "",
+            "freewieght": true
+        },
+        {
+            "id": 10,
+            "name": "tricep extension",
+            "description": "",
+            "howTo": "",
+            "imageURL": "",
+            "freewieght": true
+        }
+    ],
+    "userExercises": [
+        {
+            "id": 1,
+            "userId": 1,
+            "exerciseId": 9,
+            "dayId": 2
+        }
+    ],
+    "notes": [
+        {
+            "id": 1,
+            "note": "Try to take a rest on Sundays!",
+            "userId": 1,
+            "dayId": 1
+        }
+    ]
+}
