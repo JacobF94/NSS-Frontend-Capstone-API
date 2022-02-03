@@ -1,152 +1,220 @@
 {
-    "users": [
-        {        
-            "id": 1,
-            "name": "Jacob",
-            "email": "jacob@mail.com"
-        },
-        {        
-            "id": 2,
-            "name": "Sharif",
-            "email": "Sharif@mail.com"
-        },
-        {        
-            "id": 3,
-            "name": "Matthew",
-            "email": "Matthew@mail.com"
-        },
-        {        
-            "id": 4,
-            "name": "Cory",
-            "email": "Cory@mail.com"
-        }
-    ],
-    "weekdays": [
-        {
-            "id": 1,
-            "day": "Sunday"
-        },
-        {
-            "id": 2,
-            "day": "Monday"
-        },
-        {
-            "id": 3,
-            "day": "Tuesday"
-        },
-        {
-            "id": 4,
-            "day": "Wednesday"
-        },
-        {
-            "id": 5,
-            "day": "Thursday"
-        },
-        {
-            "id": 6,
-            "day": "Friday"
-        },
-        {
-            "id": 7,
-            "day": "Saturday"
-        }
-    ],
-    "exercises": [
-        {
-            "id": 1,
-            "name": "pushup",
-            "description": "",
-            "howTo": "",
-            "imageURL": "",
-            "freewieght": false
-        },
-        {
-            "id": 2,
-            "name": "sit up",
-            "description": "",
-            "howTo": "",
-            "imageURL": "",
-            "freewieght": false 
-        },
-        {
-            "id": 3,
-            "name": "squat",
-            "description": "",
-            "howTo": "",
-            "imageURL": "",
-            "freewieght": false
-        },
-        {
-            "id": 4,
-            "name": "lunge",
-            "description": "",
-            "howTo": "",
-            "imageURL": "",
-            "freewieght": false
-        },
-        {
-            "id": 5,
-            "name": "plank",
-            "description": "",
-            "howTo": "",
-            "imageURL": "",
-            "freewieght": false
-        },
-        {
-            "id": 6,
-            "name": "bicep curl",
-            "description": "",
-            "howTo": "",
-            "imageURL": "",
-            "freewieght": true
-        },
-        {
-            "id": 7,
-            "name": "shoulder raise",
-            "description": "",
-            "howTo": "",
-            "imageURL": "",
-            "freewieght": true
-        },
-        {
-            "id": 8,
-            "name": "chest press",
-            "description": "",
-            "howTo": "",
-            "imageURL": "",
-            "freewieght": true
-        },
-        {
-            "id": 9,
-            "name": "bent over row",
-            "description": "",
-            "howTo": "",
-            "imageURL": "",
-            "freewieght": true
-        },
-        {
-            "id": 10,
-            "name": "tricep extension",
-            "description": "",
-            "howTo": "",
-            "imageURL": "",
-            "freewieght": true
-        }
-    ],
-    "userExercises": [
-        {
-            "id": 1,
-            "userId": 1,
-            "exerciseId": 9,
-            "dayId": 2
-        }
-    ],
-    "notes": [
-        {
-            "id": 1,
-            "note": "Try to take a rest on Sundays!",
-            "userId": 1,
-            "dayId": 1
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Jacob",
+      "email": "jacob@mail.com"
+    },
+    {
+      "id": 2,
+      "name": "Sharif",
+      "email": "Sharif@mail.com"
+    },
+    {
+      "id": 3,
+      "name": "Matthew",
+      "email": "Matthew@mail.com"
+    },
+    {
+      "id": 4,
+      "name": "Cory",
+      "email": "Cory@mail.com"
+    }
+  ],
+  "days": [
+    {
+      "id": 1,
+      "day": "Sunday"
+    },
+    {
+      "id": 2,
+      "day": "Monday"
+    },
+    {
+      "id": 3,
+      "day": "Tuesday"
+    },
+    {
+      "id": 4,
+      "day": "Wednesday"
+    },
+    {
+      "id": 5,
+      "day": "Thursday"
+    },
+    {
+      "id": 6,
+      "day": "Friday"
+    },
+    {
+      "id": 7,
+      "day": "Saturday"
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "name": "pushup",
+      "description": "An exercise that primarily works the chest muscles, but also targets the shoulders and arms.",
+      "imageURL": "",
+      "freeweight": false
+    },
+    {
+      "id": 2,
+      "name": "sit up",
+      "description": "An abodominal exercise that strengthens your core muscles.",
+      "imageURL": "",
+      "freeweight": false
+    },
+    {
+      "id": 3,
+      "name": "squat",
+      "description": "A strength exercise that focuses on the hips and legs.",
+      "imageURL": "",
+      "freeweight": false
+    },
+    {
+      "id": 4,
+      "name": "lunge",
+      "description": "A lower body exercise that targets the glutes, hamstrings, and quads.",
+      "imageURL": "",
+      "freeweight": false
+    },
+    {
+      "id": 5,
+      "name": "plank",
+      "description": "A bodyweight exercise that focuses on the core, but also strengthens the shoulders, arms, and glutes.",
+      "imageURL": "",
+      "freeweight": false
+    },
+    {
+      "id": 6,
+      "name": "bicep curl",
+      "description": "A weight exercise that trains half of your arms, the biceps, by raising weights.",
+      "imageURL": "",
+      "freeweight": true
+    },
+    {
+      "id": 7,
+      "name": "shoulder raise",
+      "description": "A weight exercise that trains the deltoid shoulder muscles by raising weights.",
+      "imageURL": "",
+      "freeweight": true
+    },
+    {
+      "id": 8,
+      "name": "chest press",
+      "description": "A weight exercise that focuses on the chest muscles, either sitting or laying down, pushing weights away from the chest.",
+      "imageURL": "",
+      "freeweight": true
+    },
+    {
+      "id": 9,
+      "name": "bent over row",
+      "description": "A weight exercise that targets back muscles by bending over at an angle and lifting weights towards your body.",
+      "imageURL": "",
+      "freeweight": true
+    },
+    {
+      "id": 10,
+      "name": "tricep extension",
+      "description": "A weight exercise that targets half of the arm, pushing your arm from a bent position to a straight position with a weight.",
+      "imageURL": "",
+      "freeweight": true
+    }
+  ],
+  "userExercises": [
+    {
+      "id": 2,
+      "userId": 1,
+      "exerciseId": 8,
+      "dayId": 2
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "exerciseId": 7,
+      "dayId": 3
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "exerciseId": 6,
+      "dayId": 4
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "exerciseId": 5,
+      "dayId": 5
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "exerciseId": 4,
+      "dayId": 6
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "exerciseId": 3,
+      "dayId": 7
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "exerciseId": 1,
+      "dayId": 3
+    },
+    {
+      "userId": 1,
+      "exerciseId": "5",
+      "dayId": 1,
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "exerciseId": "8",
+      "dayId": 1,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "exerciseId": "10",
+      "dayId": 1,
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "exerciseId": "8",
+      "dayId": 5,
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "exerciseId": "4",
+      "dayId": 1,
+      "id": 13
+    },
+    {
+      "userId": 3,
+      "exerciseId": "2",
+      "dayId": 5,
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "exerciseId": "8",
+      "dayId": 1,
+      "id": 15
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "note": "Try to take a rest on Sundays!",
+      "userId": 1,
+      "dayId": 1
+    }
+  ]
 }
