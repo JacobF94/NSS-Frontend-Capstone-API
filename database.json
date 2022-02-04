@@ -19,6 +19,11 @@
       "id": 4,
       "name": "Cory",
       "email": "Cory@mail.com"
+    },
+    {
+      "name": "test",
+      "email": "test@mail.com",
+      "id": 5
     }
   ],
   "days": [
@@ -56,70 +61,70 @@
       "id": 1,
       "name": "pushup",
       "description": "An exercise that primarily works the chest muscles, but also targets the shoulders and arms.",
-      "imageURL": "",
+      "imageURL": "pushup.jpg",
       "freeweight": false
     },
     {
       "id": 2,
       "name": "sit up",
       "description": "An abodominal exercise that strengthens your core muscles.",
-      "imageURL": "",
+      "imageURL": "situp.jpg",
       "freeweight": false
     },
     {
       "id": 3,
       "name": "squat",
       "description": "A strength exercise that focuses on the hips and legs.",
-      "imageURL": "",
+      "imageURL": "squat.jpg",
       "freeweight": false
     },
     {
       "id": 4,
       "name": "lunge",
       "description": "A lower body exercise that targets the glutes, hamstrings, and quads.",
-      "imageURL": "",
+      "imageURL": "lunge.jpg",
       "freeweight": false
     },
     {
       "id": 5,
       "name": "plank",
       "description": "A bodyweight exercise that focuses on the core, but also strengthens the shoulders, arms, and glutes.",
-      "imageURL": "",
+      "imageURL": "plank.jpg",
       "freeweight": false
     },
     {
       "id": 6,
       "name": "bicep curl",
       "description": "A weight exercise that trains half of your arms, the biceps, by raising weights.",
-      "imageURL": "",
+      "imageURL": "curl.jpg",
       "freeweight": true
     },
     {
       "id": 7,
       "name": "shoulder raise",
       "description": "A weight exercise that trains the deltoid shoulder muscles by raising weights.",
-      "imageURL": "",
+      "imageURL": "shoulder.jpg",
       "freeweight": true
     },
     {
       "id": 8,
       "name": "chest press",
       "description": "A weight exercise that focuses on the chest muscles, either sitting or laying down, pushing weights away from the chest.",
-      "imageURL": "",
+      "imageURL": "chest.jpg",
       "freeweight": true
     },
     {
       "id": 9,
       "name": "bent over row",
       "description": "A weight exercise that targets back muscles by bending over at an angle and lifting weights towards your body.",
-      "imageURL": "",
+      "imageURL": "row.jpg",
       "freeweight": true
     },
     {
       "id": 10,
       "name": "tricep extension",
       "description": "A weight exercise that targets half of the arm, pushing your arm from a bent position to a straight position with a weight.",
-      "imageURL": "",
+      "imageURL": "tricep.jpg",
       "freeweight": true
     }
   ],
@@ -155,12 +160,6 @@
       "dayId": 6
     },
     {
-      "id": 7,
-      "userId": 1,
-      "exerciseId": 3,
-      "dayId": 7
-    },
-    {
       "id": 8,
       "userId": 2,
       "exerciseId": 1,
@@ -168,45 +167,105 @@
     },
     {
       "userId": 1,
-      "exerciseId": "5",
-      "dayId": 1,
-      "id": 9
-    },
-    {
-      "userId": 1,
-      "exerciseId": "8",
-      "dayId": 1,
-      "id": 10
-    },
-    {
-      "userId": 1,
-      "exerciseId": "10",
-      "dayId": 1,
-      "id": 11
-    },
-    {
-      "userId": 1,
-      "exerciseId": "8",
+      "exerciseId": 8,
       "dayId": 5,
       "id": 12
     },
     {
       "userId": 3,
-      "exerciseId": "4",
+      "exerciseId": 4,
       "dayId": 1,
       "id": 13
     },
     {
       "userId": 3,
-      "exerciseId": "2",
+      "exerciseId": 2,
       "dayId": 5,
       "id": 14
     },
     {
       "userId": 1,
-      "exerciseId": "8",
+      "exerciseId": 8,
+      "dayId": 6,
+      "id": 16
+    },
+    {
+      "userId": 5,
+      "exerciseId": 2,
+      "dayId": 6,
+      "id": 17
+    },
+    {
+      "userId": 5,
+      "exerciseId": 9,
+      "dayId": 6,
+      "id": 18
+    },
+    {
+      "userId": 5,
+      "exerciseId": 10,
+      "dayId": 6,
+      "id": 19
+    },
+    {
+      "userId": 5,
+      "exerciseId": 3,
+      "dayId": 6,
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "exerciseId": 1,
+      "dayId": 2,
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "exerciseId": 1,
+      "dayId": 7,
+      "id": 23
+    },
+    {
+      "userId": 1,
+      "exerciseId": 3,
+      "dayId": 7,
+      "id": 24
+    },
+    {
+      "userId": 1,
+      "exerciseId": 10,
+      "dayId": 7,
+      "id": 25
+    },
+    {
+      "userId": 1,
+      "exerciseId": 2,
+      "dayId": 2,
+      "id": 26
+    },
+    {
+      "userId": 1,
+      "exerciseId": 1,
+      "dayId": 5,
+      "id": 27
+    },
+    {
+      "userId": 1,
+      "exerciseId": 2,
+      "dayId": 3,
+      "id": 28
+    },
+    {
+      "userId": 1,
+      "exerciseId": 6,
       "dayId": 1,
-      "id": 15
+      "id": 30
+    },
+    {
+      "userId": 1,
+      "exerciseId": 1,
+      "dayId": 1,
+      "id": 31
     }
   ],
   "notes": [
@@ -215,6 +274,36 @@
       "note": "Try to take a rest on Sundays!",
       "userId": 1,
       "dayId": 1
+    },
+    {
+      "id": 2,
+      "note": "I like to also go for a run on Sudnays",
+      "userId": 1,
+      "dayId": 1
+    },
+    {
+      "id": 3,
+      "note": "Monday note",
+      "userId": 1,
+      "dayId": 2
+    },
+    {
+      "id": 4,
+      "note": "Tuesday note for user 2",
+      "userId": 2,
+      "dayId": 3
+    },
+    {
+      "note": "today i will workout",
+      "userId": 5,
+      "dayId": 6,
+      "id": 31
+    },
+    {
+      "note": "Wednesdays are good days for chest exercises",
+      "userId": 1,
+      "dayId": 4,
+      "id": 32
     }
   ]
 }
