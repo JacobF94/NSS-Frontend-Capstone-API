@@ -24,6 +24,11 @@
       "name": "test",
       "email": "test@mail.com",
       "id": 5
+    },
+    {
+      "name": "monika",
+      "email": "monika@mail.com",
+      "id": 6
     }
   ],
   "days": [
@@ -142,12 +147,6 @@
       "dayId": 3
     },
     {
-      "id": 4,
-      "userId": 1,
-      "exerciseId": 6,
-      "dayId": 4
-    },
-    {
       "id": 5,
       "userId": 1,
       "exerciseId": 5,
@@ -239,12 +238,6 @@
     },
     {
       "userId": 1,
-      "exerciseId": 2,
-      "dayId": 2,
-      "id": 26
-    },
-    {
-      "userId": 1,
       "exerciseId": 1,
       "dayId": 5,
       "id": 27
@@ -266,6 +259,60 @@
       "exerciseId": 1,
       "dayId": 1,
       "id": 31
+    },
+    {
+      "userId": 1,
+      "exerciseId": 6,
+      "dayId": 2,
+      "id": 32
+    },
+    {
+      "userId": 6,
+      "exerciseId": 1,
+      "dayId": 2,
+      "id": 33
+    },
+    {
+      "userId": 6,
+      "exerciseId": 1,
+      "dayId": 4,
+      "id": 34
+    },
+    {
+      "userId": 6,
+      "exerciseId": 8,
+      "dayId": 2,
+      "id": 35
+    },
+    {
+      "userId": 1,
+      "exerciseId": 9,
+      "dayId": 3,
+      "id": 36
+    },
+    {
+      "userId": 1,
+      "exerciseId": 1,
+      "dayId": 4,
+      "id": 37
+    },
+    {
+      "userId": 1,
+      "exerciseId": 6,
+      "dayId": 4,
+      "id": 38
+    },
+    {
+      "userId": 1,
+      "exerciseId": 7,
+      "dayId": 4,
+      "id": 39
+    },
+    {
+      "userId": 1,
+      "exerciseId": 10,
+      "dayId": 4,
+      "id": 40
     }
   ],
   "notes": [
@@ -280,12 +327,6 @@
       "note": "I like to also go for a run on Sudnays",
       "userId": 1,
       "dayId": 1
-    },
-    {
-      "id": 3,
-      "note": "Monday note",
-      "userId": 1,
-      "dayId": 2
     },
     {
       "id": 4,
@@ -304,6 +345,54 @@
       "userId": 1,
       "dayId": 4,
       "id": 32
+    },
+    {
+      "note": "On Mondays, I try to take it easy",
+      "userId": 1,
+      "dayId": 2,
+      "id": 33
+    },
+    {
+      "note": "Tuesday exercises are cool",
+      "userId": 1,
+      "dayId": 3,
+      "id": 34
+    },
+    {
+      "note": "i need a separate text field for a title... hmmmm",
+      "userId": 1,
+      "dayId": 3,
+      "id": 35
+    },
+    {
+      "note": "testing margins",
+      "userId": 1,
+      "dayId": 4,
+      "id": 36
+    },
+    {
+      "note": "testing flexbox",
+      "userId": 1,
+      "dayId": 4,
+      "id": 37
+    },
+    {
+      "note": "I LOVE FLEXBOX",
+      "userId": 1,
+      "dayId": 4,
+      "id": 38
+    },
+    {
+      "note": "CSS IS MY FAVORITE",
+      "userId": 1,
+      "dayId": 4,
+      "id": 39
+    },
+    {
+      "note": "CSS IS BETTER THAN REACT",
+      "userId": 1,
+      "dayId": 4,
+      "id": 40
     }
   ]
 }
