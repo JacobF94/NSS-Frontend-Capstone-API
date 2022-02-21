@@ -153,12 +153,6 @@
       "dayId": 5
     },
     {
-      "id": 6,
-      "userId": 1,
-      "exerciseId": 4,
-      "dayId": 6
-    },
-    {
       "id": 8,
       "userId": 2,
       "exerciseId": 1,
@@ -181,12 +175,6 @@
       "exerciseId": 2,
       "dayId": 5,
       "id": 14
-    },
-    {
-      "userId": 1,
-      "exerciseId": 8,
-      "dayId": 6,
-      "id": 16
     },
     {
       "userId": 5,
@@ -261,12 +249,6 @@
       "id": 31
     },
     {
-      "userId": 1,
-      "exerciseId": 6,
-      "dayId": 2,
-      "id": 32
-    },
-    {
       "userId": 6,
       "exerciseId": 1,
       "dayId": 2,
@@ -313,18 +295,24 @@
       "exerciseId": 10,
       "dayId": 4,
       "id": 40
+    },
+    {
+      "userId": 1,
+      "exerciseId": 2,
+      "dayId": 6,
+      "id": 41
+    },
+    {
+      "userId": 1,
+      "exerciseId": 6,
+      "dayId": 6,
+      "id": 42
     }
   ],
   "notes": [
     {
       "id": 1,
       "note": "Try to take a rest on Sundays!",
-      "userId": 1,
-      "dayId": 1
-    },
-    {
-      "id": 2,
-      "note": "I like to also go for a run on Sudnays",
       "userId": 1,
       "dayId": 1
     },
@@ -359,40 +347,52 @@
       "id": 34
     },
     {
-      "note": "i need a separate text field for a title... hmmmm",
-      "userId": 1,
-      "dayId": 3,
-      "id": 35
-    },
-    {
-      "note": "testing margins",
+      "note": "Don't forget to hydrate!",
       "userId": 1,
       "dayId": 4,
-      "id": 36
+      "id": 42
     },
     {
-      "note": "testing flexbox",
+      "note": "Last day until the weekend!!",
       "userId": 1,
-      "dayId": 4,
-      "id": 37
+      "dayId": 6,
+      "id": 43
     },
     {
-      "note": "I LOVE FLEXBOX",
+      "note": "Push hard for extra reps!",
       "userId": 1,
-      "dayId": 4,
-      "id": 38
+      "dayId": 7,
+      "id": 44
     },
     {
-      "note": "CSS IS MY FAVORITE",
+      "note": "Try to do an extra set of one exercise today",
       "userId": 1,
-      "dayId": 4,
-      "id": 39
+      "dayId": 5,
+      "id": 45
     },
     {
-      "note": "CSS IS BETTER THAN REACT",
+      "note": "Drink plenty of water",
       "userId": 1,
-      "dayId": 4,
-      "id": 40
+      "dayId": 6,
+      "id": 46
+    },
+    {
+      "note": "Don't forget to stretch!",
+      "userId": 1,
+      "dayId": 6,
+      "id": 47
+    },
+    {
+      "note": "stretching!",
+      "userId": 1,
+      "dayId": 6,
+      "id": 48
+    },
+    {
+      "note": "hydrate!",
+      "userId": 1,
+      "dayId": 1,
+      "id": 50
     }
   ]
 }
